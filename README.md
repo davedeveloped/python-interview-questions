@@ -45,16 +45,27 @@ x = 5  X = 5
 ```
 --- 
 
-- What is the difference between list and tuples in Python?
+- List 5 Differences between lists and tuples
 
 
 | List                                                         |Tuples                                                        | 
 |--------------------------------------------------------------|--------------------------------------------------------------|
-|Lists are mutable i.e they can be edited.                     |Tuples are immutable (tuples are lists which can’t be edited).|
-|Lists are slower than tuples.                                 |Tuples are faster than list.                                  |
-|Syntax: `list_1 = [10, ‘Chelsea’, 20]`                        |Syntax: `tup_1 = (10, ‘Chelsea’ , 20)`                        |
+|Lists are mutable                                             |Tuples are immutable                                          |
+|Implication of iterations is Time-consuming                   |The implication of iterations is comparatively Faster         |
+|The list is better for performing operations, such as insertion and deletion.|Tuple data type is appropriate for accessing the elements|
+|Lists consume more memory|Tuple consume less memory as compared to the list|
+|Lists have several built-in methods|Tuple does not have many built-in methods.|
+|The unexpected changes and errors are more likely to occur|In tuple, it is hard to take place.|
 
 --- 
+
+- List three similarities between lists and tuples
+
+1. Lists and Tuples are ordered. They can be accessed by indexing
+2. Lists and Tuples can hold duplicate values.
+3. Lists and Tuples can hold mutable objects like lists.
+
+---
 
 - Dict and List comprehensions in Python?
 
