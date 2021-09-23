@@ -243,6 +243,17 @@ Slices are good for getting a subset of values in your list. For the example cod
 | -- | -- | -- | -- | -- |
 | index | 0 | 1 | 2 | 3 |
 
+First index is inclusive (before the :) and last (after the :) is not
+
+```py
+# Define a list
+z = [3, 7, 4, 2]
+#slice to get between the 0th index and index before the 2nd
+print(z[0:2])
+```
+```OUTPUT
+[3, 7]
+```
 
 
 
