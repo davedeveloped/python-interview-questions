@@ -22,18 +22,6 @@ Child class is the class that inherits from another class, also called derived c
 
 --- 
 
-- Object in python
-
-  An Object is an instance of a Class. A class is like a blueprint while an instance is a copy of the class with actual values.
-Now we can use the class named MyClass to create objects:
-
-
-Example:  Create an object named p1, and print the value of x:
-```py 
-p1 = MyClass()
-print(p1.x)
-```
---- 
 - Class in python				
 
   A class is a user-defined blueprint or prototype from which objects are created. Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. 
@@ -46,6 +34,20 @@ class MyClass:
 x = 5  X = 5
 ```
 --- 
+
+- Object in python
+
+  An Object is an instance of a Class. A class is like a blueprint while an instance is a copy of the class with actual values.
+Now we can use the class named MyClass to create objects:
+
+
+Example:  Create an object named p1, and print the value of x:
+```py 
+p1 = MyClass()
+print(p1.x)
+```
+--- 
+
 
 - List 5 Differences between lists and tuples
 
