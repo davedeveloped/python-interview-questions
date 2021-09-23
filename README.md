@@ -59,6 +59,36 @@ print(p1.x)
 ```
 --- 
 
+- List 3 applications of python				
+1.	Web and internet applications
+2.	Game applications
+3.	Data science and data visualization
+4.	Web scraping application
+5.	Embedded application
+
+---
+
+- Give the use of the following built-in function and method:	
+
+a.	`input()`
+
+The `input()` function allows a user to insert a value into a program. input() returns a string value. You can convert the contents of an input using any data type. For instance, you can convert the value a user inserts to a floating-point number.
+
+b.	`list()`
+
+A list is defined as an ordered, mutable, and heterogeneous collection of objects. Lists are contained within a collection of square brackets [ ].
+
+c.	`pow()`
+
+The `pow(X, y)` function returns the value of x to the power of y (xy). If a third parameter is present, it returns x to the power of y, modulus z.
+
+
+d.	`pop()`
+
+The `pop()` in python removes and returns the last value from the list or the given index value.
+
+
+---
 
 - List 5 Differences between lists and tuples
 
