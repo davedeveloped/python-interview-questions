@@ -1,14 +1,24 @@
 # Python Practice Questions & Answers
 
+- Decorators in Python?
+
+Decorators are used to add some design patterns to a function without changing its structure. Decorators generally are defined before the function they are enhancing. To apply a decorator we first define the decorator function. Then we write the function it is applied to and simply add the decorator function above the function it has to be applied to. For this, we use the @ symbol before the decorator.
+
+--- 
+
 - Constructor in Python
   
-  Constructors are generally used for instantiating an object. The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created. In Python the __init__() method is called the constructor and is always called when an object is created.
+Constructors are generally used for instantiating an object. The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created. In Python the __init__() method is called the constructor and is always called when an object is created.
+
+--- 
 
 - Inheritance in Python
   
-  Inheritance allows us to define a class that inherits all the methods and properties from another class.
-  Parent class is the class being inherited from, also called base class.
-  Child class is the class that inherits from another class, also called derived class.
+Inheritance allows us to define a class that inherits all the methods and properties from another class.
+Parent class is the class being inherited from, also called base class.
+Child class is the class that inherits from another class, also called derived class.
+
+--- 
 
 - Object in python
 
@@ -21,6 +31,7 @@ Example:  Create an object named p1, and print the value of x:
 p1 = MyClass()
 print(p1.x)
 ```
+--- 
 - Class in python				
 
   A class is a user-defined blueprint or prototype from which objects are created. Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. 
@@ -31,4 +42,44 @@ Example: Create a class named MyClass, with a property named x:
 ```py
 class MyClass:
 x = 5  X = 5
+```
+--- 
+
+- What is the difference between list and tuples in Python?
+
+
+| List                                                         |Tuples                                                        | 
+|--------------------------------------------------------------|--------------------------------------------------------------|
+|Lists are mutable i.e they can be edited.                     |Tuples are immutable (tuples are lists which can’t be edited).|
+|Lists are slower than tuples.                                 |Tuples are faster than list.                                  |
+|Syntax: `list_1 = [10, ‘Chelsea’, 20]`                        |Syntax: `tup_1 = (10, ‘Chelsea’ , 20)`                        |
+
+--- 
+
+- Dict and List comprehensions in Python?
+
+Dictionary and list comprehensions are just another concise way to define dictionaries and lists.
+
+Example of list comprehension is-
+
+```py 
+x = [i for i in range(5)]
+```
+
+The above code creates a list as below-
+
+```py
+4
+[0,1,2,3,4]
+```
+
+Example of dictionary comprehension is-
+
+```py
+x = [i : i+2 for i in range(5)]
+```
+The above code creates a list as below-
+
+```py
+[0: 2, 1: 3, 2: 4, 3: 5, 4: 6]
 ```
