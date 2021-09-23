@@ -121,3 +121,12 @@ import sqlite3
 con = sqlite3.connect ('customers.db')
 #the database is automatically stored in the local computer
 ```
+To run it locally on the computer:
+
+1. Open the command prompt on the computer
+2.	change the directory to the directory of the database file. Assuming the directory for the database file is in the Users directory.
+`cd /c/users/`
+3. Then run it by putting python before creating the filename 
+`python database.py`
+4. It has stored the python database in `customers.db`
+
