@@ -140,7 +140,50 @@ The above code creates a list as below-
 [0: 2, 1: 3, 2: 4, 3: 5, 4: 6]
 ```
 ---
+- What are Literals in Python and explain about different Literals
 
+A literal in python source code represents a fixed value for primitive data types. There are 5 types of literals in python-
+
+1. String literals 
+
+A string literal is created by assigning some text enclosed in single or double quotes to a variable. To create multiline literals, assign the multiline text enclosed in triple quotes. Eg.`name=”Tanya”`
+
+2. Character literals 
+
+It is created by assigning a single character enclosed in double quotes. Eg. `a=’t’`
+
+3. Numeric literals
+
+They include numeric values that can be either integer, floating point value, or a complex number. Eg. `a=50`
+
+4. Boolean literals 
+
+These can be 2 values- either True or False.
+
+Literal Collections – These are of 4 types-
+
+a) List collections-Eg. 
+```py
+a=[1,2,3,’Amit’]
+```
+
+b) Tuple literals- Eg. 
+```py
+a=(5,6,7,8)
+```
+
+c) Dictionary literals- Eg. 
+```py
+dict={1: ’apple’, 2: ’mango, 3: ’banana`’}
+```
+
+d) Set literals- Eg.
+`{“Tanya”, “Rohit”, “Mohan”}`
+
+6. Special literal- Python has 1 special literal None which is used to return a null variable.
+
+
+---
 - Write a step-by-step process on how to create a database in python, store it and display it on the command-line.		
 
 ```py
