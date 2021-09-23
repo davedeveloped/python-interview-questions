@@ -174,3 +174,41 @@ print (crs.fetchall())
 
 #run it through the command prompt
 ```
+---
+
+- Write a short note on loops, giving a syntax and an example of them.
+
+A loop statement allows us to execute a statement or group of statements multiple times.
+Syntax:
+```py
+for value in sequence:
+    loop body
+```
+
+- Write a short note on while loops. Give a syntax and an example.
+
+While loop is used to execute a block of statements repeatedly until a given a condition is satisfied. And when the condition becomes false, the line immediately after the loop in program is executed. 
+Syntax :
+```py
+while expression:
+    statement(s)
+```
+---
+
+- Write a short note on user-defined functions		
+
+A function is a collection of instructions. User-defined functions are codes or instructions that have been programmed and stored by the user for the purpose of calling it up. A user-defined function can also be used as a mapping.
+An example of a user-defined function:
+```py
+def function1 ():
+    print (“Lyrics one”)
+    print (“Lyrics two”)
+print (“This is outside the function”)
+#to call up the function
+print (function1 ())
+```
+```OUTPUT:
+Lyrics one
+Lyrics two
+```
+
