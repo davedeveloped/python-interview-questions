@@ -2,6 +2,17 @@
 
 ## Write short notes on the following:
 
+- If-else statement, using an example to explain it.
+
+The if…elif…else statement is used in Python for decision making.
+Python if Statement Syntax
+```py
+if test expression:
+    statement(s)
+```
+
+---
+
 - Decorators in Python?
 
 Decorators are used to add some design patterns to a function without changing its structure. Decorators generally are defined before the function they are enhancing. To apply a decorator we first define the decorator function. Then we write the function it is applied to and simply add the decorator function above the function it has to be applied to. For this, we use the @ symbol before the decorator.
@@ -97,4 +108,16 @@ The above code creates a list as below-
 
 ```py
 [0: 2, 1: 3, 2: 4, 3: 5, 4: 6]
+```
+---
+
+- Write a step-by-step process on how to create a database in python, store it and display it on the command-line.		
+
+```py
+# to create a database, you import sqlite3 from the library
+import sqlite3
+#next you create a connection to the database and store in a variable
+#in the connect, directly parse the name of the database
+con = sqlite3.connect ('customers.db')
+#the database is automatically stored in the local computer
 ```
