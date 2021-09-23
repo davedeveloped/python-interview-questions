@@ -130,3 +130,47 @@ To run it locally on the computer:
 `python database.py`
 4. It has stored the python database in `customers.db`
 
+---
+
+- Write a program to create a database, create a table, insert records into the table, querry and fetchall the values to be displayed.
+
+```py
+#Create a cursor instance, it directs the database in creating tables
+crs = con.cursor()
+crs.execute ("""
+                CREATE TABLE Customers (first_n TEXT, last_n TEXT, email TEXT,)
+            """)
+#commit and close the connection
+con.commit()
+con.close()
+
+#run it at the commandline with python database.py
+```
+
+Insert Records into table:
+
+```py
+import sqlite3
+con = sqlite3.connect ('customers.db')
+crs = con.cursor()
+crs.execute (" INSERT INTO customers VALUES ('John', 'Elder', 'johne@gmail.com')")
+con.commit()
+con.close()
+```
+
+To Querry & Fetchall:
+```py
+#to display we querry
+
+import sqlite3
+con = sqlite3.connect ('customers.db')
+crs = con.cursor()
+crs.execute (" SELECT * FROM customers")
+crs.fetchall()
+con.commit()
+con.close()
+
+print (crs.fetchall())
+
+#run it through the command prompt
+```
