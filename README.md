@@ -211,4 +211,25 @@ print (function1 ())
 Lyrics one
 Lyrics two
 ```
+---
+
+- Define dictionaries. Give a SYNTAX and an EXAMPLE.        
+               
+A dictionary is a lookup table used to store data values in `key:value` pairs. Dictionaries are written with curly brackets, and have keys and values:
+```py
+d = {key : value}
+```
+For example:
+Create and print a dictionary:
+```py
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict)
+```
+```OUTPUT
+{'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
+```
 
