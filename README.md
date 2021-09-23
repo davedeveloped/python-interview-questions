@@ -1,5 +1,7 @@
 # Python Practice Questions & Answers
 
+## Write short notes on the following:
+
 - Decorators in Python?
 
 Decorators are used to add some design patterns to a function without changing its structure. Decorators generally are defined before the function they are enhancing. To apply a decorator we first define the decorator function. Then we write the function it is applied to and simply add the decorator function above the function it has to be applied to. For this, we use the @ symbol before the decorator.
