@@ -233,3 +233,16 @@ print(thisdict)
 {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 ```
 
+---
+
+- What is list slicing and manipulation? Give an example of list slicing.
+
+Slices are good for getting a subset of values in your list. For the example code below, it will return a list with the items from index 0 up to and not including index 2.
+
+| z= | [3, | 7, | 4, | 2] |
+| -- | -- | -- | -- | -- |
+| index | 0 | 1 | 2 | 3 |
+
+
+
+
