@@ -71,9 +71,11 @@ Child class is the class that inherits from another class, also called derived c
 
   A class is a user-defined blueprint or prototype from which objects are created. Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. 
   
-  To create a class, use the keyword class:
+To create a class, use the keyword class:
   
-Example: Create a class named MyClass, with a property named x:
+Example 
+
+Create a class named MyClass, with a property named x:
 ```py
 class MyClass:
 x = 5  X = 5
@@ -86,8 +88,9 @@ An Object is an instance of a Class. A class is like a blueprint while an instan
   
 Now we can use the class named MyClass to create objects:
 
+Example 
 
-Example  Create an object named p1, and print the value of x:
+Create an object named p1, and print the value of x:
 ```py 
 p1 = MyClass()
 print(p1.x)
