@@ -33,7 +33,7 @@ for i in a:
 ```OUTPUT
 1 2 string
 ```
-
+---
 
 
 - If-else statement, using an example to explain it.
@@ -365,6 +365,8 @@ print(z[0:2])
 ```OUTPUT
 [3, 7]
 ```
+
+---
 - What is enumerate() in Python?
 
 `Enumerate()` in Python is a built-in function used for assigning an index to each item of the iterable object. It adds a loop on the iterable objects while keeping track of the current item and returns the object in an enumerable form. This object can be used in a for loop to convert it into a list by using list() method.
@@ -386,4 +388,20 @@ for i, m in enumerate (Months):
         #print x
 ```
 
+---
 
+- How can you copy the entire dictionary to a new dictionary?
+
+You can also copy the entire dictionary to a new dictionary. For example, here we have copied our original dictionary to the new dictionary name “Boys” and “Girls”.
+
+Example:
+
+```py
+Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}    
+Boys = {'Tim': 18,'Charlie':12,'Robert':25}
+Girls = {'Tiffany':22}    
+studentX=Boys.copy()
+studentY=Girls.copy()
+print(studentX)
+print(studentY)
+```
