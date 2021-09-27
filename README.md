@@ -87,7 +87,7 @@ An Object is an instance of a Class. A class is like a blueprint while an instan
 Now we can use the class named MyClass to create objects:
 
 
-Example:  Create an object named p1, and print the value of x:
+Example  Create an object named p1, and print the value of x:
 ```py 
 p1 = MyClass()
 print(p1.x)
@@ -395,7 +395,7 @@ for i, m in enumerate (Months):
 
 You can also copy the entire dictionary to a new dictionary. For example, here we have copied our original dictionary to the new dictionary name “Boys” and “Girls”.
 
-Example:
+Example
 
 ```py
 Dict = {'Tim': 18,'Charlie':12,'Tiffany':22,'Robert':25}    
