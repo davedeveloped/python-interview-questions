@@ -2,6 +2,40 @@
 
 ## Write short notes on the following:
 
+- What is the difference between Python Arrays and lists?
+
+Arrays in python can only contain elements of same data types i.e., data type of array should be homogeneous. It is a thin wrapper around C language arrays and consumes far less memory than lists.
+    Lists in python can contain elements of different data types i.e., data type of lists can be heterogeneous. It has the disadvantage of consuming large memory.
+
+```py
+import array
+a = array.array('i', [1, 2, 3])
+for i in a:
+    print(i, end=' ')
+```
+ OUTPUT:   
+ ```OUTPUT
+ 1 2 3
+ ```
+```py 
+a = array.array('i', [1, 2, 'string'])    
+```
+OUTPUT:
+```OUTPUT
+TypeError: an integer is required (got type str)
+```
+```py
+a = [1, 2, 'string']
+for i in a:
+   print(i, end=' ')    
+```
+OUTPUT:
+```OUTPUT
+1 2 string
+```
+
+
+
 - If-else statement, using an example to explain it.
 
 The if…elif…else statement is used in Python for decision making.
@@ -280,6 +314,7 @@ print (“This is outside the function”)
 #to call up the function
 print (function1 ())
 ```
+OUTPUT:
 ```OUTPUT:
 Lyrics one
 Lyrics two
@@ -302,6 +337,7 @@ thisdict = {
 }
 print(thisdict)
 ```
+OUTPUT:
 ```OUTPUT
 {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 ```
@@ -324,6 +360,7 @@ z = [3, 7, 4, 2]
 #slice to get between the 0th index and index before the 2nd
 print(z[0:2])
 ```
+OUTPUT:
 ```OUTPUT
 [3, 7]
 ```
