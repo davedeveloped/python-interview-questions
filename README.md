@@ -20,7 +20,7 @@ for i in a:
 ```py 
 a = array.array('i', [1, 2, 'string'])    
 ```
-OUTPUT:
+**OUTPUT:**
 ```OUTPUT
 TypeError: an integer is required (got type str)
 ```
