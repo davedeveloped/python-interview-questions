@@ -365,6 +365,25 @@ print(z[0:2])
 ```OUTPUT
 [3, 7]
 ```
+- What is enumerate() in Python?
 
+`Enumerate()` in Python is a built-in function used for assigning an index to each item of the iterable object. It adds a loop on the iterable objects while keeping track of the current item and returns the object in an enumerable form. This object can be used in a for loop to convert it into a list by using list() method.
+
+Example of `enumerate()` is as follows:
+
+Suppose we want to do numbering for our month ( Jan, Feb, Marc, ….June), so we declare the variable i that enumerate the numbers while m will print the number of month in list.
+```py
+#use a for loop over a collection
+Months = ["Jan","Feb","Mar","April","May","June"]
+for i, m in enumerate (Months):
+        print(i,m)
+        
+# use the break and continue statements
+        
+        #for x in range (10,20):
+        #if (x == 15): break
+        #if (x % 5 == 0) : continue
+        #print x
+```
 
 
