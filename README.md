@@ -13,7 +13,7 @@ a = array.array('i', [1, 2, 3])
 for i in a:
     print(i, end=' ')
 ```
- OUTPUT:   
+ **OUTPUT:**   
  ```OUTPUT
  1 2 3
  ```
@@ -29,7 +29,7 @@ a = [1, 2, 'string']
 for i in a:
    print(i, end=' ')    
 ```
-OUTPUT:
+**OUTPUT:**
 ```OUTPUT
 1 2 string
 ```
@@ -126,6 +126,7 @@ The `pop()` in python removes and returns the last value from the list or the gi
 
 - List 5 Differences between lists and tuples
 
+**Difference Between List and Tuple in Python**
 
 | List                                                         |Tuples                                                        | 
 |--------------------------------------------------------------|--------------------------------------------------------------|
@@ -314,7 +315,7 @@ print (“This is outside the function”)
 #to call up the function
 print (function1 ())
 ```
-OUTPUT:
+**OUTPUT:**
 ```OUTPUT:
 Lyrics one
 Lyrics two
@@ -337,7 +338,7 @@ thisdict = {
 }
 print(thisdict)
 ```
-OUTPUT:
+**OUTPUT:**
 ```OUTPUT
 {'brand': 'Ford', 'model': 'Mustang', 'year': 1964}
 ```
@@ -360,7 +361,7 @@ z = [3, 7, 4, 2]
 #slice to get between the 0th index and index before the 2nd
 print(z[0:2])
 ```
-OUTPUT:
+**OUTPUT:**
 ```OUTPUT
 [3, 7]
 ```
