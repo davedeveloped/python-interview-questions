@@ -82,7 +82,8 @@ x = 5  X = 5
 
 - Object in python
 
-  An Object is an instance of a Class. A class is like a blueprint while an instance is a copy of the class with actual values.
+An Object is an instance of a Class. A class is like a blueprint while an instance is a copy of the class with actual values.
+  
 Now we can use the class named MyClass to create objects:
 
 
@@ -126,7 +127,7 @@ The `pop()` in python removes and returns the last value from the list or the gi
 
 - List 5 Differences between lists and tuples
 
-**Difference Between List and Tuple in Python**
+**Difference Between List and Tuple in Python:**
 
 | List                                                         |Tuples                                                        | 
 |--------------------------------------------------------------|--------------------------------------------------------------|
