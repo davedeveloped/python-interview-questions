@@ -288,6 +288,24 @@ print (crs.fetchall())
 ```
 ---
 
+- A given list [5, 4, 3, 2, 1, -2, -3, -5] is hidden from your view. Then you were asked to find the sum of only the positive numbers. Use a while loop to iterate over the elements and get the answer.
+
+```py
+given_list = [5, 4, 3, 2, 1, -2, -3, -5]
+total = 0
+a= 0
+while given_list [a] > 0:
+    total += given_list[i]
+    a+=1
+print (total)
+```
+
+Output
+```OUTPUT 
+15
+```
+---
+
 - Write a short note on loops, giving a syntax and an example of them.
 
 A loop statement allows us to execute a statement or group of statements multiple times.
@@ -393,7 +411,24 @@ for i, m in enumerate (Months):
 ```
 
 ---
+- Write a program that prints the SUM of ALL MULTIPLES of 2 & 4 that are less than 100.
 
+```py
+n= 0
+for i in range(1,100):
+    if i%2 == 0:
+        n += i
+    elif i%4 == 0:
+        n += i
+print (n)
+```
+
+Output
+```OUTPUT 
+2450
+```
+
+---
 - How can you copy the entire dictionary to a new dictionary?
 
 You can also copy the entire dictionary to a new dictionary. For example, here we have copied our original dictionary to the new dictionary name “Boys” and “Girls”.
