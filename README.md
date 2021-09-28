@@ -415,11 +415,11 @@ for i, m in enumerate (Months):
 
 ```py
 n= 0
-for i in range(1,100):
-    if i%2 == 0:
-        n += i
-    elif i%4 == 0:
-        n += i
+for a in range(1,100):
+    if a%2 == 0:
+        n += a
+    elif a%4 == 0:
+        n += a
 print (n)
 ```
 
