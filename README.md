@@ -295,7 +295,7 @@ given_list = [5, 4, 3, 2, 1, -2, -3, -5]
 total = 0
 a= 0
 while given_list [a] > 0:
-    total += given_list[i]
+    total += given_list[a]
     a+=1
 print (total)
 ```
